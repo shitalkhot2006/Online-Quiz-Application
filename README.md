@@ -1,14 +1,15 @@
-# Weather Forecast App
-A responsive web app that shows current weather and a 5-day forecast for any city.
+# Online Quiz Application
+A console quiz app with categories, per-question timer, automatic scoring and saved results.
 
-**Tech:** HTML, CSS, JavaScript, REST API (Open-Meteo, no API key needed)
+**Tech:** Python, SQLite
 
 ## Run
-Open `index.html` in a browser (internet required).
+    python quiz_app.py
+
+The database (`quiz.db`) and sample questions are created automatically on first run.
 
 ## Features
-- Search by city name (press Enter or click Search)
-- Current temperature, humidity, wind speed
-- 5-day forecast with icons
-- Error handling for invalid city and network failure
-- Mobile-friendly layout (Flexbox + media queries)
+- Choose category: Python, DBMS, Web
+- 15-second timer per question
+- Automatic score, percentage and grade
+- Results saved in SQLite, top-5 leaderboard per category
